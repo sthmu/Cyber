@@ -1,83 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Montserrat, sans-serif; /* Replace with your chosen font */
+    color: #333;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
     line-height: 1.6;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 0;
-}
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 
-header nav ul li {
-    margin: 10px;
-    position: relative;
-}
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px;
-}
-
-header nav ul li a:hover {
-    background-color: #555;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 800px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 4px;
-    
-}
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-weight: normal;
-}
-
-.dropdown-content a:hover {
-    background-color: #f1f1f1;
-}
-/* 
-.services-dropdown {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 800px;
-    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
-    z-index: 1;
-    border-radius: 4px;
-    display: flex;
-}
-
-.services-dropdown .column {
-    flex: 1;
-    padding: 16px;
-}
-
-.services-dropdown .column h3 {
-    margin-top: 0;
-} */
 
 .column{
     display:flex;   
@@ -100,6 +32,31 @@ main section {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#home {
+    background-color: #f0f0f0; /* Replace with desired background color */
+    text-align: center;
+    padding: 80px 0;
+}
+
+.hero-image {
+    background-image: url('your-image.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+.cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
 }
 
 .feature {

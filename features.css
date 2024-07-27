@@ -1,0 +1,32 @@
+.features{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.feature{
+    background-color: wheat;
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: 25px;
+    justify-content: center;
+    align-items: center;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;
+}
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity:1;
+        scale:1;
+    }
+}
